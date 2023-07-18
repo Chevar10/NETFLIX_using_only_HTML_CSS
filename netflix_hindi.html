@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/nficon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <img  src="images/netflix-logo.png" alt="home-logo" class="home-logo" />
+        <div>
+          <div class="language">
+            <img src="images/globe.png" alt="" class="before" />
+            <select  onChange="window.location.href=this.value">
+              <option style="background-color: black;" value="">हिन्दी</option>
+              <option style="background-color: black;" value="netflix.html">English</option>
+            </select>
+            <img src="images/down-icon.png" alt="" class="after" />
+          </div>
+          <a href="#">Sign In</a>
+        </div>
+      </nav>
+      <div class="header-container">
+        <h1>असीमित फिल्में, टीवी शो और बहुत कुछ।.</h1>
+        <h2>कहीं भी देखो. किसी भी समय रद्द करें.</h2>
+        <h3>
+          देखने के लिए तैयार हैं? अपनी सदस्यता बनाने या पुनः आरंभ करने के लिए
+          अपना ईमेल दर्ज करें।
+        </h3>
+        <form class="email-signup">
+          <input
+            type="email"
+            id="email-input-foot"
+            required
+            placeholder="Email address"
+          />
+          <button>शुरू हो जाओ</button>
+        </form>
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="section-break"></div>
+      <section class="row s1">
+        <div class="col text">
+          <h1>अपने टीवी पर आनंद लें.</h1>
+          <h2>
+            स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, ब्लू-रे
+            प्लेयर और बहुत कुछ पर देखें।
+          </h2>
+        </div>
+        <div class="col image">
+          <div class="img-vid-container">
+            <div class="blank-div"></div>
+            <video
+              src="images/video-tv-in-0819.m4v"
+              autoplay=""
+              loop=""
+              muted
+            ></video>
+            <img src="images/tv.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="section-break"></div>
+      <section class="row s2">
+        <div class="col image">
+          <div class="img-vid-container box">
+            <div class="blank-div"></div>
+            <img src="images/mobile-0819.jpg" alt="" />
+            <div class="mob-downloading">
+              <div class="mob-image">
+                <img src="images/boxshot.png" alt="" />
+              </div>
+              <div class="mob-text">
+                <h2>Stranger Things</h2>
+                <p>डाउनलोड हो रहा है...</p>
+              </div>
+              <div class="mob-gif">
+                <img src="images/download-icon.gif" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col text">
+          <h1>ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें।</h1>
+          <h2>
+            अपने पसंदीदा को आसानी से सहेजें और हमेशा देखने के लिए कुछ न कुछ
+            रखें।
+          </h2>
+        </div>
+      </section>
+      <div class="section-break"></div>
+      <section class="row s3">
+        <div class="col text">
+          <h1>हर जगह देखो.</h1>
+          <h2>
+            अपने फ़ोन, टैबलेट, लैपटॉप और टीवी पर असीमित फिल्में और टीवी शो
+            स्ट्रीम करें।
+          </h2>
+        </div>
+        <div class="col image">
+          <div class="img-vid-container v3">
+            <div class="blank-div"></div>
+            <video
+              src="images/video-devices-in.m4v"
+              autoplay=""
+              loop=""
+              muted
+            ></video>
+            <img src="images/device-pile-in.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <div class="section-break"></div>
+      <section class="row s4">
+        <div class="col image">
+          <div class="img-vid-container">
+            <div class="blank-div"></div>
+            <video
+              src="images/video-tv-in-0819.m4v"
+              autoplay=""
+              loop=""
+            ></video>
+            <img src="images/children.png" alt="" />
+          </div>
+        </div>
+        <div class="col text">
+          <h1>अपने टीवी पर आनंद लें.</h1>
+          <h2>
+            स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, ब्लू-रे
+            प्लेयर और बहुत कुछ पर देखें।
+          </h2>
+        </div>
+      </section>
+      <div class="section-break"></div>
+      <section class="faq">
+        <h2>अक्सर पूछे जाने वाले प्रश्नों</h2>
+        <ul class="accodion">
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="first"
+            />
+            <label for="first">नेटफ्लिक्स क्या है?</label>
+            <div class="content">
+              <p>
+                नेटफ्लिक्स एक स्ट्रीमिंग सेवा है जो विविध प्रकार की पेशकश करती
+                है पुरस्कार विजेता टीवी शो, फिल्में, एनीमे, वृत्तचित्र और बहुत
+                कुछ - हजारों इंटरनेट से जुड़े उपकरणों पर।<br /><br />
+                आप जब चाहें, जब चाहें, बिना ए के देख सकते हैं एकल विज्ञापन - सभी
+                एक कम मासिक कीमत पर। हमेशा होता है कुछ नया खोजा जाता है, और नए
+                टीवी शो और फिल्में जोड़ी जाती हैं हर हफ्ते!
+              </p>
+            </div>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="second"
+            />
+            <label for="second"> नेटफ्लिक्स की लागत कितनी है?</label>
+            <div class="content">
+              <p>
+                अपने स्मार्टफोन, टैबलेट, स्मार्ट टीवी, लैपटॉप आदि पर नेटफ्लिक्स
+                देखें स्ट्रीमिंग डिवाइस, सभी एक निश्चित मासिक शुल्क पर। योजनाओं
+                की सीमा ₹149 से ₹649 प्रति माह तक। कोई अतिरिक्त लागत नहीं, कोई
+                अनुबंध नहीं।
+              </p>
+            </div>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="third"
+            />
+            <label for="third">मैं कहाँ देख सकता हूँ?</label>
+            <div class="content">
+              <p>
+                कहीं भी, कभी भी देखें. अपने नेटफ्लिक्स खाते से साइन इन करें अपने
+                व्यक्तिगत से सीधे वेब पर Netflix.com पर देखें कंप्यूटर या
+                इंटरनेट से जुड़े किसी भी उपकरण पर जो की पेशकश करता है स्मार्ट
+                टीवी, स्मार्टफोन, टैबलेट सहित नेटफ्लिक्स ऐप, स्ट्रीमिंग मीडिया
+                प्लेयर और गेम कंसोल। <br /><br />तुम कर सकते हो iOS, Android,
+                आदि से भी अपने पसंदीदा शो डाउनलोड करें विंडोज़ 10 ऐप. जब आप
+                यात्रा पर हों तो देखने के लिए डाउनलोड का उपयोग करें और बिना
+                इंटरनेट कनेक्शन के. नेटफ्लिक्स को अपने साथ ले जाएं कहीं भी.
+              </p>
+            </div>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="fourth"
+            />
+            <label for="fourth"> मैं कैसे रद्द करूं?</label>
+            <div class="content">
+              <p>
+                नेटफ्लिक्स लचीला है. कोई कष्टप्रद अनुबंध नहीं हैं और नहीं
+                प्रतिबद्धताएँ आप अपना खाता ऑनलाइन दो भागों में आसानी से रद्द कर
+                सकते हैं क्लिक. कोई रद्दीकरण शुल्क नहीं है - अपना प्रारंभ करें
+                या बंद करें कभी भी खाता.
+              </p>
+            </div>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="fifth"
+            />
+            <label for="fifth">मैं नेटफ्लिक्स पर कहां देख सकता हूं?</label>
+            <div class="content">
+              <p>
+                नेटफ्लिक्स के पास फीचर फिल्मों की एक विस्तृत लाइब्रेरी है,
+                वृत्तचित्र, टीवी शो, एनीमे, पुरस्कार विजेता नेटफ्लिक्स मूल, और
+                अधिक। जितना चाहो, जब चाहो देखो।
+              </p>
+            </div>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="accodion"
+              onclick="onlyOne(this)"
+              id="sixth"
+            />
+            <label for="sixth">क्या नेटफ्लिक्स बच्चों के लिए अच्छा है?</label>
+            <div class="content">
+              <p>
+                नेटफ्लिक्स किड्स अनुभव आपकी सदस्यता में शामिल है जब बच्चे
+                परिवार-अनुकूल टीवी शो का आनंद लें तो माता-पिता को नियंत्रण दें
+                और फिल्में अपने-अपने स्थान पर। <br /><br />
+                बच्चों की प्रोफाइल आती है पिन-सुरक्षित अभिभावक नियंत्रण के साथ
+                जो आपको प्रतिबंधित करने देता है सामग्री की परिपक्वता रेटिंग जिसे
+                बच्चे देख सकते हैं और विशिष्ट को ब्लॉक कर सकते हैं वे शीर्षक जो
+                आप नहीं चाहेंगे कि बच्चे देखें।
+              </p>
+            </div>
+          </li>
+        </ul>
+        <small
+          >देखने के लिए तैयार हैं? अपना बनाने या पुनः आरंभ करने के लिए अपना ईमेल दर्ज करें
+          सदस्यता.</small
+        >
+        <form class="email-signup">
+          <input
+            type="email"
+            id="email-input-foot"
+            required
+            placeholder="Email address"
+          />
+          <button>शुरू हो जाओ</button>
+        </form>
+      </section>
+      <div class="section-break"></div>
+      <footer>
+        <div class="footer-container">
+          <p>Questions? Call <a href="tel:9481378784">+91-9481378784</a></p>
+          <ul class="footer-list">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Help Centre</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="">Media Centre</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a href="">Ways to Watch</a></li>
+            <li><a href="">Terms and Use</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Cookie Preferences</a></li>
+            <li><a href="">Corporate Information</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Speed Test</a></li>
+            <li><a href="">Legal Notices</a></li>
+            <li><a href="">Only on Netflix</a></li>
+          </ul>
+          <div class="language-foot">
+            <div class="language">
+              <img src="images/globe.png" alt="" class="before" />
+              <select  onChange="window.location.href=this.value">
+                <option style="background-color: black;" value="">हिन्दी</option>
+                <option style="background-color: black;" value="netflix.html">English</option>
+              </select>
+              <img src="images/down-icon.png" alt="" class="after" />
+            </div>
+          </div>
+          <p class="copyright">Netflix | Created by Chetan</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function onlyOne(checkbox) {
+          var checkboxes = document.getElementsByName('accodion')
+          checkboxes.forEach((item) => {
+              if (item !== checkbox) item.checked =
+          })
+      }
+    </script>
+  </body>
+</html>
